@@ -1,0 +1,132 @@
+* {
+    font-family: "Source Code Pro";
+   }
+   
+   .logo img {
+       display: block;
+       text-align: center;
+       margin: 0 auto 30px;
+       padding-right: 50px;
+       padding-left: 50px;
+       max-width: 300px;
+       max-height: 200px;
+       border-radius: 5px;
+       background-color: white;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   
+   h1 {
+       font-family: "Source Code Pro";
+       text-align: center;
+       background-color: white;
+       font-size: 2.5rem;
+       padding: 10px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       border-radius: 5px;
+   }
+   
+   .center {
+       text-align: center;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       padding: 10px;
+       margin: auto;
+       border-radius: 5px;
+       max-width: 500px;
+   }
+   
+   h2 {
+       font-family: "Source Code Pro";
+       text-align: center;
+       background-color: white;
+       padding: 20px;
+       border-radius: 5px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       margin: auto;
+   }
+   
+   .app-container {
+       text-align: center;
+       margin: auto;
+       max-width: 600px;
+   }
+   
+   #productDetails {
+       max-width: 600px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       text-align: center;
+       display: flexbox;
+       background-color: white;
+       padding: 20px;
+       font-size: 1.5rem;
+       font-family: "Source Code Pro";
+       border-radius: 5px;
+   }
+   
+   body {
+       display: block;
+       background-image: url("/assets/images/body-background.png");
+   }
+   
+   ul {
+       list-style: none;
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: 1fr;
+       height: 50rem;
+       grid-gap: 30px;
+   }
+   
+   li {
+       
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       padding: 10px;
+       margin: 20px;
+       text-align: center;
+       font-size: 1.5rem;
+       font-weight: bold;
+       color: teal;
+       background-color: white;
+       border-radius: 5px;
+   }
+   
+   p {
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       padding: 10px;
+       margin: auto;
+       background-color: white;
+       text-align: center;
+       font-size: 25px;
+       border-radius: 5px;
+       max-width: 500px;
+   
+   }
+   
+   #description {
+       font-size: 1rem;
+       font-style: italic;
+       padding: 5px;
+   }
+   
+   #headerImg {
+       margin: auto;
+   }
+   
+   .product img {
+       max-width: 300px;
+       height: 200px;
+       padding: 10px;
+   }
+   
+   
+   a {
+       font-size: 1.5rem;
+       text-align: center;
+       margin: auto;
+       background-color: white;
+       padding: 5px;
+   }
+   
+   button {
+       margin: 10px;
+   }
+   
